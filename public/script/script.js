@@ -3,7 +3,8 @@ const socket = io.connect()
 const   front = document.querySelector('.front'),
         pages = document.querySelector('.book'),
         bookP = document.querySelector('.front p'),
-        bookh1 = document.querySelector('.front h1')
+        bookh1 = document.querySelector('.front h1'),
+        page1 = document.querySelector('.page1')
 
 socket.on('turnPage1', function() {
 
