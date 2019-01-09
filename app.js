@@ -1,8 +1,13 @@
 const express = require('express')
 const app = express()
 const ejs = require('ejs')
-const http = require('http').Server(app);
+const http = require('http').Server(app)
 const io = require('socket.io')(http)
+const data = require('./data.json')
+
+data.forEach(el => {
+    console.log(el.Naam)
+});
 
 const port = 3000
 
@@ -10,7 +15,7 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
 app.get('/', function(req, res) {
-    res.render('index')
+    res.render('index', data)
 })
 
 io.on('connection', function (socket) {
