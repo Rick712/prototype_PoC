@@ -11,6 +11,12 @@ if(like) {
             socket.emit('likeGenre', genre)
         })
     })
+    dislike.forEach((dislikeBtn) => {
+        dislikeBtn.addEventListener('click', function(e) {
+            const genre = e.target.dataset.genre
+            socket.emit('dislikeGenre', genre)
+        })
+    })
 }
 
 send.addEventListener('click', function () {

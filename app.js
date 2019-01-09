@@ -14,25 +14,37 @@ let likedGenres = [],
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
-app.get('/', function(req, res) {
-    res.render('index', {data: books, genres: genres})
-    io.on('send', function() {
-        res.render('result', {books: relatedBooks})
-        checkBook()
-    })
+// app.get('/', function(req, res) {
+//     res.render('index', {data: books, genres: genres})
+//     socket.on('send', function() {
+//         io.emit('sendBooks')
+//         checkBook()
+//     })
+// })
+
+app.get('/start', function(req, res) {
+    res.render('start', {genres: genres})
 })
 
 io.on('connection', function(socket) {
     socket.on('likeGenre', function(genre) {
         likedGenres.push(genre)
+        io.emit('like', genre)
+    })
+    socket.on('dislikeGenre', function(genre) {
+        io.emit('dislike', genre)
     })
     socket.on('send', function () {
         console.log(likedGenres)
+        io.emit('sendBooks')
+        checkBook()
     })
 })
 
 const checkBook = function() {
 
+    console.log('test')
+    
     likedGenres.forEach((genre) => {
         books.forEach((book) => {
             if(book.Genre.includes(genre)) {
@@ -40,18 +52,16 @@ const checkBook = function() {
             }
         })
     })
-    console.log(relatedBooks)
     return relatedBooks
 }
 
 app.get('/admin', function (req, res) {
-    res.render('admin', {genres: genres})
     likedGenres = []
     relatedBooks = []
+    res.render('admin', {genres: genres})
 })
 
 app.get('/result', function (req, res) {
-    checkBook()
     res.render('result', {books: relatedBooks})
 })
 

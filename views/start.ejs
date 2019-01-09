@@ -14,12 +14,16 @@
             <div class="headerText"><p>Geef aan welke genre je voorkeur heeft</p></div>
         </header>
         <div class="content">
-            <div class="content_block">
-                <p class="genreText">Genre:</p>
-                <p class="genre">(Genre)</p>
-                <div class="line"></div>
-                <p class="genreDescription">(Genre description)</p>
-            </div>
+            <% var i = '9999'; %>
+            <% for (var genre in genres) { %>
+                <div class="content_block" data-index="<%= i %>">
+                    <p class="genreText">Genre:</p>
+                    <p class="genre"><%= genres[genre].title %></p>
+                    <div class="line"></div>
+                    <p class="genreDescription">(Genre description)</p>
+                </div>
+                <% i = i - 1 %>
+            <% } %>
 
             <div class="info_block">
                 <img src="../images/hand_zwaai.png" alt="hand zwaai" />
