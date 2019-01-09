@@ -1,13 +1,13 @@
 const socket = io.connect() 
 
-const   btn1 = document.querySelector('#first'),
-        btn2 = document.querySelector('#second')
+const   dislike = document.querySelectorAll('#dislike'),
+        like = document.querySelectorAll('#like')
 
-btn1.addEventListener('click', () => {
-    console.log('test')
-    socket.emit('page1')
-})
-
-btn2.addEventListener('click', () => {
-    socket.emit('page2')
-})
+if(like) {
+    like.forEach((likeBtn) => {
+        likeBtn.addEventListener('click', function (e) {
+            const genre = e.target.dataset.genre
+            socket.emit('likeGenre', genre)
+        })
+    })
+}

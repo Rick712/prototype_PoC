@@ -8,9 +8,16 @@
 </head>
 <body>
 
-    <button id="first">First page</button>
-    <button id="second">Second page</button>
+    <%for (var i = 0; i < genres.length; i++){%>
+        <div class="genre" id="<%= genres[i].title %>">
+            <h2><%= genres[i].title %></h2>
+                <a id="dislike" data-genre="<%= genres[i].title %>">Dislike</a>
+                <a id="like" data-genre="<%= genres[i].title %>">Like</a>
+        </div>
+    <%}%>
     
+    <a id="#send">Verstuur lijst</a>
+
     <script src="/socket.io/socket.io.js"></script>
     <script src="script/admin.js"></script>
 </body>
