@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>AKO Boekenkiezer</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../images/akologo.png" alt="Ako_logo" class="logo"/>
+            <div class="headerText"><p>Geef aan welke genre je voorkeur heeft</p></div>
+        </header>
+        <div class="content">
+            <div class="content_block">
+                <p class="genreText">Genre:</p>
+                <p class="genre">(Genre)</p>
+                <div class="line"></div>
+                <p class="genreDescription">(Genre description)</p>
+            </div>
+
+            <div class="info_block">
+                <img src="../images/hand_zwaai.png" alt="hand zwaai" />
+                <div class="line"></div>
+                <p>Swipe naar links of rechts om je voorkeur aan tegeven</p>
+            </div>
+            <img src="../images/x.png" alt="no" class="red_x"/>
+            <img src="../images/heart.png" alt="yes" class="green_heart"/>
+        </div>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
