@@ -1,23 +1,18 @@
-const   socket = io.connect(),
-        cards = document.querySelectorAll('.content_block')
+const socket = io.connect(),
+    cards = document.querySelectorAll('.content_block')
 
 let i = 0
 
-socket.on('like', function(genre) {
+socket.on('likeKeyword', function (genre) {
     cards[i].classList.add('like')
     i++
     return i
 })
 
-socket.on('dislike', function (genre) {
+socket.on('dislikeKeyword', function (genre) {
     cards[i].classList.add('dislike')
     i++
     return i
-})
-
-socket.on('sendBooks', function() {
-    console.log('test')
-    window.location = '/keywords'
 })
 
 const genreElement = document.querySelectorAll('.content_block')

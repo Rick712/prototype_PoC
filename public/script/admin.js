@@ -21,4 +21,5 @@ if(like) {
 
 send.addEventListener('click', function () {
     socket.emit('send')
+    window.location = '/adminkeywords'
 })

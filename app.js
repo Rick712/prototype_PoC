@@ -9,41 +9,46 @@ const genres = require('./genres.json')
 const port = 3000
 
 let likedGenres = [], 
-    relatedBooks = []
+    relatedBooks = [],
+    likedKeywords = [],
+    finalBooks = [],
+    totalLikes = {}
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
-// app.get('/', function(req, res) {
-//     res.render('index', {data: books, genres: genres})
-//     socket.on('send', function() {
-//         io.emit('sendBooks')
-//         checkBook()
-//     })
-// })
-
-app.get('/start', function(req, res) {
+app.get('/', (req, res) => {
     res.render('start', {genres: genres})
 })
 
-io.on('connection', function(socket) {
-    socket.on('likeGenre', function(genre) {
+io.on('connection', (socket) => {
+    socket.on('likeGenre', (genre) => {
         likedGenres.push(genre)
         io.emit('like', genre)
     })
-    socket.on('dislikeGenre', function(genre) {
+    socket.on('dislikeGenre', (genre) => {
         io.emit('dislike', genre)
     })
-    socket.on('send', function () {
-        console.log(likedGenres)
+    socket.on('send', () => {
         io.emit('sendBooks')
         checkBook()
     })
+    socket.on('likeSteekwoord', (keyword) => {
+        likedKeywords.push(keyword)
+        console.log(likedKeywords)
+        io.emit('likeKeyword')
+    })
+    socket.on('dislikeSteekwoord', () => {
+        io.emit('dislikeKeyword')
+    })
+
+    socket.on('finalResult', () => {
+        io.emit('result')
+        checkKeywords()
+    })
 })
 
-const checkBook = function() {
-
-    console.log('test')
+const checkBook = () => {
     
     likedGenres.forEach((genre) => {
         books.forEach((book) => {
@@ -55,16 +60,48 @@ const checkBook = function() {
     return relatedBooks
 }
 
-app.get('/admin', function (req, res) {
+const checkKeywords = () => {
+    likedKeywords.forEach((word) => {
+        books.forEach((book) => {
+            if(book.Steekwoorden.includes(word)) {
+                finalBooks.push(book)
+            }
+        })
+    })
+    console.log(finalBooks)
+    return finalBooks
+    result()
+}
+
+const result = () => {
+    finalBooks.forEach((book) => {
+        book.Steekwoorden.forEach((word) => {
+            if (likedKeywords.includes(word)) {
+                totalLikes.push(book.title, word)
+            }
+        })
+    })
+    console.log(totalLikes)
+}
+
+app.get('/admin', (req, res) => {
     likedGenres = []
     relatedBooks = []
     res.render('admin', {genres: genres})
 })
 
-app.get('/result', function (req, res) {
-    res.render('result', {books: relatedBooks})
+app.get('/adminkeywords', (req, res) => {
+    res.render('admin_keywords', { books: relatedBooks })
 })
 
-http.listen(port, function () {
+app.get('/keywords', (req, res) => {
+    res.render('keywords', {books: relatedBooks})
+})
+
+app.get('/result', (req, res) => {
+    res.render('result', {results: finalBooks})
+})
+
+http.listen(port, () => {
     console.log('server is online at port ' + port)
 })

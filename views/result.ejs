@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="container">
-        <%for (var book in books){%>
-            <p><%= books[book].Naam %> - <%= books[book].Genre %></p>
+        <%for (var book in results){%>
+            <p><%= book %> - <%= results[book].Naam %> - <%= results[book].Genre %></p>
         <% } %>
     </div>
 </body>

@@ -211,3 +211,8 @@ html {
 .dislike {
     animation: dislike 2s ease-in-out forwards;
 }
+
+.keywords .genre {
+    font-size: 40px;
+    word-break: break-all;
+}
