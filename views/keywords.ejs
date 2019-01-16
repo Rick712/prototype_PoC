@@ -19,8 +19,8 @@
         </header>
         <div class="content keywords">
             <% var i = '9999'; %>
-            <% for (var keyword in books) { %>
-                <% var words = books[keyword].Steekwoorden.split(', ') %>
+            <% for (var count = 0; count < 4; count++) { %>
+                <% var words = books[count].Steekwoorden.split(', ') %>
                 <% for (var word in words) { %>
                     <div class="content_block" data-index="<%= i %>">
                         <p class="genreText">Steekwoord:</p>

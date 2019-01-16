@@ -128,12 +128,12 @@ header{
 }
 
 .red_x{
-    left: -20vw;
+    left: 0vw;
     bottom: -15vh;
 }
 
 .green_heart{
-    right: -20vw;
+    right: 0vw;
     bottom: -15vh;
 }
 
