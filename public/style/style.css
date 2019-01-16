@@ -171,7 +171,7 @@ header{
 .results_page .content{
     flex-direction: row;
     justify-content: left;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 .results .book_result {
@@ -185,7 +185,7 @@ header{
 }
 
 .rating{
-    padding: 30px 0;
+    padding: 15px 0;
 }
 .star_rating {
     width: 15px
@@ -212,8 +212,11 @@ header{
 
 .results .book_result_description{
     font-weight: 500;
-    margin-top: 20px;
-    max-width: 200px;
+    margin-top: 10px;
+    max-width: 260px;
+    overflow: hidden;
+    height: 133px;
+    position: relative
 }
 
 .results:nth-child(3) img{
