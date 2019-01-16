@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Prototype PoC</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/trackingCSS.css">
 </head>
 <body>
-
+    <div class="demo-frame">
+        <div class="demo-container">
+            <video id="video" width="320" height="240" preload autoplay loop muted></video>
+            <canvas id="canvas" width="320" height="240"></canvas>
+        </div>
+    </div>
     <div class="container">
 
         <div class="book">
@@ -75,6 +81,8 @@
     </div>
 
     <script src="script.js"></script>
-    
+    <script src="js/tracking-min.js"></script>
+    <script src="js/face-min.js"></script>
+    <script src="js/faceInit.js"></script>
 </body>
 </html>
