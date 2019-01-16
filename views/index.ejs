@@ -7,26 +7,21 @@
     <link rel="stylesheet" href="style/style.css">
     <title>AKO Boekenkiezer</title>
 </head>
-<body>
-
-    <div class="container">
+<body class="index_page">
+    <div class="random_circle_index"></div>
+    <div class="random_circle_index_red">
+        <p>Binnen 1 minuut jouw favoriete boek vinden?</p>
+    </div>
+    <div class="container index">
         <header>
             <img src="../images/akologo.png" alt="Ako_logo" class="logo"/>
         </header>
         
         <div class="introduction">
-            <h1>AKO boekenkiezer</h1>
-            <p>Welkom bij de AKO boekenkiezer. Via dit interactief scherm kunt u op een leuke manier een boek kiezen die bij u past.</p>
-            <p>Zwaai om te beginnen</p>
-
+            <img src="../images/hand_zwaai.png" alt="hand zwaai" />
+            <div class="line"></div>
+            <p>Swipe naar rechts om te beginnen</p>
         </div>
-
-        <!-- <%for (var genre in genres){%>
-            <div class="genre <%= genres[genre].title %>">
-                <h2><%= genres[genre].title %></h2>
-            </div> 
-        <%}%> -->
-
     </div>
 
     <script src="/socket.io/socket.io.js"></script>
