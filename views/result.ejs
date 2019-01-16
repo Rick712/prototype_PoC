@@ -4,13 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
     <title>Resultaat</title>
 </head>
 <body>
-    <div class="container">
-        <h1><%= results[0].Naam %> - <%= results[0].Genre %></h1>
-        <img src="<%= results[0].kaft_image %>" />
-        <p><%= results[0].Plot %>
+    <div class="random_circle"></div>
+    <div class="container results_page">
+        <header>
+            <img src="../images/akologo.png" alt="Ako_logo" class="logo"/>
+        </header>
+        <div class="content">
+            <div class="results">
+                <img class="book_result" src="http://boekzoektlezer.weebly.com/uploads/4/6/0/2/46025649/5460504.jpg?222" alt="book cover" />
+                <div class="rating">
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
+                    <p class="rating_amount">(23)</p>
+                </div>
+                <p class="book_result_author">Naam naam</p>
+                <p class="book_result_pages">Blz.</p>
+                <p class="book_result_description">adml kasmal ksdmalk sdaslkd aslkd aslk djaslk djaslk djaslk djalks djalsk dj</p>
+            </div>
+            <div class="results">
+                <img class="book_result" src="http://boekzoektlezer.weebly.com/uploads/4/6/0/2/46025649/5460504.jpg?222" alt="book cover" />
+                <div class="rating">
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
+                    <p class="rating_amount">(23)</p>
+                </div>
+                <p class="book_result_author">Naam naam</p>
+                <p class="book_result_pages">Blz.</p>
+                <p class="book_result_description">adml kasmal ksdmalk sdaslkd aslkd aslk djaslk djaslk djaslk djalks djalsk dj</p>
+            </div>
+            <div class="results">
+                <img class="book_result" src="http://boekzoektlezer.weebly.com/uploads/4/6/0/2/46025649/5460504.jpg?222" alt="book cover" />
+                <div class="rating">
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating" src="../images/star.png" alt="star rating" />
+                    <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
+                    <p class="rating_amount">(23)</p>
+                </div>
+                <p class="book_result_author">Naam naam</p>
+                <p class="book_result_pages">Blz.</p>
+                <p class="book_result_description">adml kasmal ksdmalk sdaslkd aslkd aslk djaslk djaslk djaslk djalks djalsk dj</p>
+            </div>
+            <div class="qr_section">
+                <p>Geen tijd? Scan de QR code zodat je deze niet vergeet!</p>
+                <img class="qrcode" src="../images/qr.png" alt="QR code" />
+            </div>
+
+        </div>
+        <div class="again">
+            <img src="../images/hand_zwaai.png" alt="hand zwaai" />
+            <div class="line"></div>
+            <p>Swipe naar rechts om opnieuw te beginnen</p>
+        </div>
+        <!-- <%for (var book in results){%>
+            <p><%= results[book].kaft_image %> - <%= book %> - <%= results[book].Naam %> - <%= results[book].Genre %> <%= results[book].Genre %></p>
+        <% } %> -->
     </div>
 </body>
 </html>
