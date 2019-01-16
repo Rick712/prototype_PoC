@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
+body{
+    overflow: hidden;
+}
+
+.admin {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: scroll !important;
+}
+
+.container {
+    padding: 0 100px;
+}
 .admin {
     max-width: 1200px;
     margin: 0 auto;
@@ -12,12 +25,18 @@
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
+    z-index: 100;
 }
 
 /* -------start header--------------------------------------------------------------------------- */
 header{
     display: flex;
     justify-content: space-between; 
+    padding-bottom: 50px;
+}
+
+.logo{
+    width: 10%;
 }
 
 .logo{
@@ -127,6 +146,127 @@ header{
     height: 800px;
 }
 
+.red_x{
+    left: -20vw;
+    bottom: -15vh;
+}
+
+.green_heart{
+    right: -20vw;
+    bottom: -15vh;
+}
+
+/* -------end content---------------------------------------------------------------------------------------- */
+/* -------start resultpage---------------------------------------------------------------------------------------- */
+.random_circle{
+    width: 1216px;
+    height: 1216px;
+    background-color: #F8F8F8;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    left: -100px;
+    bottom: -500px;
+}
+
+.results_page .content{
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 80px;
+}
+
+.results_page .results{
+    min-width: 300px;
+    max-width: 300px;
+    padding-right: 40px;
+}
+
+.rating{
+    padding: 30px 0;
+}
+.star_rating {
+    width: 15px
+}
+
+.star_rating.disabled{
+    opacity: 0.4
+}
+
+.rating_amount{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.results p{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.results .book_result_author{
+    padding-bottom: 5px;
+}
+
+.results .book_result_description{
+    font-weight: 500;
+    margin-top: 20px;
+    max-width: 200px;
+}
+
+.results:nth-child(3) img{
+    max-width: 150px;
+}
+
+.qr_section{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.qr_section p{
+    text-align: center;
+    max-width: 250px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    margin: 0;
+}
+
+.qr_section .qrcode{
+    width: 100px;
+    align-self: center;
+    padding-top: 30px;
+}
+
+.again{
+    position: absolute;
+    width: 300px;
+    right: 200px;
+    bottom: 100px;
+}
+
+.again img{
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+    width: 100px;
+    
+}
+.again p{
+    font-size: 19px;
+    font-weight: 500;
+    max-width: 290px;
+    text-align: center;
+    line-height: 23px;
+}
+.again .line{
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+    width: 140px;
+}
+
+/* -------end resultpage---------------------------------------------------------------------------------------- */
 .red_x path, .green_heart path {
     transition: fill ease-in-out .75s .1s;
 }
