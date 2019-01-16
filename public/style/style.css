@@ -127,6 +127,10 @@ header{
     height: 800px;
 }
 
+.red_x path, .green_heart path {
+    transition: fill ease-in-out .75s .3s;
+}
+
 .red_x{
     left: 0vw;
     bottom: -15vh;
@@ -205,11 +209,11 @@ html {
 }
 
 .like {
-    animation: like 2s ease-in-out forwards;
+    animation: like 1.5s ease-in-out forwards;
 }
 
 .dislike {
-    animation: dislike 2s ease-in-out forwards;
+    animation: dislike 1.5s ease-in-out forwards;
 }
 
 .keywords .genre {

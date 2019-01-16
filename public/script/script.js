@@ -7,14 +7,20 @@ let i = 0
 
 socket.on('like', function(genre) {
     cards[i].classList.add('like')
-    const heart = document.querySelector('.green_heart path')
-    heart.style.fill = 'green'
+    heart.style.fill = 'rgba(0, 255, 0, 1)'
+    setTimeout(() => {
+        heart.style.fill = 'inherit'
+    }, 900)
     i++
     return i
 })
 
 socket.on('dislike', function (genre) {
     cards[i].classList.add('dislike')
+    cross.style.fill = 'rgba(255, 0, 0, 1)'
+    setTimeout(()=> {
+        cross.style.fill = 'inherit'
+    }, 900)
     i++
     return i
 })
