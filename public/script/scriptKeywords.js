@@ -10,7 +10,7 @@ socket.on('likeKeyword', function (genre) {
     heart.style.fill = 'rgba(0, 255, 0, 1)'
     setTimeout(() => {
         heart.style.fill = 'inherit'
-    }, 900)
+    }, 500)
     i++
     return i
 })
@@ -20,7 +20,7 @@ socket.on('dislikeKeyword', function (genre) {
     cross.style.fill = 'rgba(255, 0, 0, 1)'
     setTimeout(() => {
         cross.style.fill = 'inherit'
-    }, 900)
+    }, 500)
     i++
     return i
 })
