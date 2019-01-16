@@ -145,7 +145,7 @@ header{
 .content_block{
     background: #FFFFFF;
     border: 11px solid #FFFFFF;
-    box-shadow: 3px 8px 20px 0 rgba(142,142,142,0.50);
+    box-shadow: 3px 8px 20px 0 rgba(226, 226, 226, 0.5);
     border-radius: 93px;
     width: 500px;
     text-align: center;
@@ -153,7 +153,11 @@ header{
     margin-top: 100px;
     align-self: center;
     position: absolute;
-    height: 300px;;
+    height: 300px;
+}
+
+.keywords .content_block{
+    height: 130px;
 }
 
 .content .line{
