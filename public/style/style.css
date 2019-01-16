@@ -12,6 +12,14 @@ body{
 
 .container {
     padding: 0 100px;
+}
+.admin {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
@@ -29,6 +37,10 @@ header{
 
 .logo{
     width: 10%;
+}
+
+.logo{
+    width: 15%;
     height: 50%;
 }
 
@@ -255,6 +267,35 @@ header{
 }
 
 /* -------end resultpage---------------------------------------------------------------------------------------- */
+.red_x path, .green_heart path {
+    transition: fill ease-in-out .75s .1s;
+}
+
+#send {
+    padding: 3rem;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: sans-serif;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.3);
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    border: solid black 1px;
+}
+
+.red_x{
+    left: 0vw;
+    bottom: -15vh;
+}
+
+.green_heart{
+    right: 0vw;
+    bottom: -15vh;
+}
+
+/* -------end content---------------------------------------------------------------------------------------- */
+
 .book {
     position: relative;
     margin: 0 auto;
@@ -321,11 +362,11 @@ html {
 }
 
 .like {
-    animation: like 2s ease-in-out forwards;
+    animation: like 1s ease-in-out forwards;
 }
 
 .dislike {
-    animation: dislike 2s ease-in-out forwards;
+    animation: dislike 1s ease-in-out forwards;
 }
 
 .keywords .genre {
