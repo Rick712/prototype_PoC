@@ -20,19 +20,16 @@
         <div class="content keywords">
             <% var i = '9999'; %>
             <% var count = 0 %>
-            <% for (var keyword in books) { %>
-                <% var words = books[keyword].Steekwoorden.split(', ') %>
-                <% for (var word in words) { %>
-                    <% if (count != 12) { %>
-                        <div class="content_block" data-index="<%= i %>">
-                            <p class="genreText">Steekwoord:</p>
-                            <p class="genre"><%= words[word] %></p></p>
-                            <div class="line"></div>
-                        </div>
-                        <% count = count + 1 %> 
-                    <% } %>
-                    <% i = i - 1 %>
-                <% } %>   
+            <% for (var word in books) { %>
+                <% if (count != 10) { %>
+                    <div class="content_block" data-index="<%= i %>">
+                        <p class="genreText">Steekwoord:</p>
+                        <p class="genre"><%= books[count].Steekwoorden %></p></p>
+                        <div class="line"></div>
+                    </div>
+                    <% count = count + 1 %> 
+                <% } %>
+                <% i = i - 1 %>
             <% } %>
 
             <div class="info_block">

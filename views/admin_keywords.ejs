@@ -13,21 +13,18 @@
 
     <% var i = '9999'; %>
     <% var count = 0 %>
-    <% for (var keyword in books) { %>
-        <% var words = books[keyword].Steekwoorden.split(', ') %>
-        <% for (var word in words) { %>
-            <% if (count != 12) { %>                
-                <div class="genre" id="next<%= i %>">    
-                    <h2><%= words[word] %></h2>
-                    <div class="buttons">
-                        <a id="dislike" data-steekwoord="<%= words[word] %>" href="#next<%= i - 1 %>">Dislike</a>
-                        <a id="like" data-steekwoord="<%= words[word] %>" href="#next<%= i - 1 %>">Like</a>
-                    </div>
+    <% for (var word in books) { %>
+        <% if (count != 10) { %>
+            <div class="genre" id="next<%= i %>">    
+                <h2><%= books[count].Steekwoorden %></h2>
+                <div class="buttons">
+                    <a id="dislike" data-steekwoord="<%= books[count].Steekwoorden %>" href="#next<%= i - 1 %>">Dislike</a>
+                    <a id="like" data-steekwoord="<%= books[count].Steekwoorden %>" href="#next<%= i - 1 %>">Like</a>
                 </div>
-                <% count = count + 1 %> 
-            <% } %>
-            <% i = i - 1 %>
+            </div>
+        <% count = count + 1 %> 
         <% } %>
+        <% i = i - 1 %>
     <% } %>
 
     <div class="genre" id="next12">

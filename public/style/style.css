@@ -131,6 +131,19 @@ header{
     transition: fill ease-in-out .75s .1s;
 }
 
+#send {
+    padding: 3rem;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: sans-serif;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.3);
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    border: solid black 1px;
+}
+
 .red_x{
     left: 0vw;
     bottom: -15vh;
