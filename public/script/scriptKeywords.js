@@ -30,3 +30,7 @@ const genreElement = document.querySelectorAll('.content_block')
 genreElement.forEach((el) => {
     el.style.zIndex = el.dataset.index
 })
+
+socket.on('result', () => {
+    window.location = '/result'
+})

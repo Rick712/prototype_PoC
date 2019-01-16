@@ -1,5 +1,4 @@
 [{
-        "Naam": "Voorbeeldboek",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Thriller",
@@ -7,10 +6,11 @@
         "Steekwoorden": "Eng, Spannend, Onvoorspelbaar",
         "Plot": "Heel spannend boek waar mensen doodgaan. Check het uit.",
         "Reviews": 56,
-        "Sterren": 4
+        "Sterren": 4,
+        "Bladzijdes": 301,
+        "Schrijver": "Hugo Ford"
     },
     {
-        "Naam": "Harry Potter en de Steen der Wijzen",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Fantasy",
@@ -18,10 +18,11 @@
         "Steekwoorden": "Magie, Spannend",
         "Plot": "Harry komt er achter dat hij een tovenaar is.",
         "Reviews": 999,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 391,
+        "Schrijver": "Aimee Jacobs"
     },
     {
-        "Naam": "It",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Horror",
@@ -29,10 +30,11 @@
         "Steekwoorden": "Horror, Clown, Spannend, Eng",
         "Plot": "De Losers Club moeten Pennywise verslaan",
         "Reviews": 999,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 543,
+        "Schrijver": "Rowan Cherry"
     },
     {
-        "Naam": "Dood Spel",
         "Waargebeurd": "Nee",
         "Fictie": "Nee",
         "Genre": "Thriller",
@@ -40,10 +42,11 @@
         "Steekwoorden": "Roman, Detective, Spannend",
         "Plot": "Ex-fotomodel Laura Ayers en basketbalster David Baskin hebben hun grote liefde gevonden. Maar tijdens hun huwelijksreis slaat het noodlot toe: David gaat zwemmen in zee en keert niet terug. Het onherkenbare lijk dat de volgende dag aanspoelt, moet wel van hem zijn. Enkele maanden later valt een nieuwe speler in Davids team op door fantastisch spel. Laura is in de rouw, maar niet blind voor de gelijkenis met haar echtgenoot. Ze besluit te graven in Davids verleden en stuit op een oude moord, een familieschandaal en een web van leugens dat alles en iedereen die ze ooit vertrouwde lijkt te omvatten...",
         "Reviews": 324,
-        "Sterren": 3
+        "Sterren": 3,
+        "Bladzijdes": 134,
+        "Schrijver": "Ulises Brady"
     },
     {
-        "Naam": "Huidpijn",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Thriller",
@@ -51,10 +54,11 @@
         "Steekwoorden": "Duister, Rauw, Pijnlijk",
         "Plot": "Iedereen heeft een duistere kant. Ook Anne, Nederlands populairste televisiepresentatrice en journaliste. Als ze haar grote liefde - en daarmee haar droom - dreigt te verliezen en het verdriet hierover breed wordt uitgemeten in de pers, moet ze alles op alles zetten om niet ook nog door haar vrienden, familie en eigen verstand in de steek gelaten te worden. 'Huidpijn' is de gevoeligste thriller tot nu toe van Saskia Noort, auteur van de bestsellers 'Terug naar de kust', 'De eetclub', 'Nieuwe buren', 'De verbouwing', 'Koorts' en 'Debet'. Linda de Mol zei over 'Huidpijn': 'Het lukt Saskia Noort weer me tot vier uur wakker te houden.' 'Huidpijn' is de meest rauwe, pijnlijke en schurende thriller van Saskia Noort tot nu toe. Ze weet opnieuw als geen ander een hedendaags tijdbeeld te vangen, met treffende beschrijvingen van onder andere het BN'erschap, het hebben van een kinderwens en het leven in de schaduw van een verslaafde. Saskia Noort ontving in 2015 de GNM Meesterprijs voor haar gehele oeuvre.",
         "Reviews": 9,
-        "Sterren": 4
+        "Sterren": 4,
+        "Bladzijdes": 656,
+        "Schrijver": "Ainsley Cervantes"
     },
     {
-        "Naam": "De wereld volgens Gijp",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Biografie",
@@ -62,10 +66,11 @@
         "Steekwoorden": "Voetbal, Sport, Verdrietig",
         "Plot": "De Wereld volgens GIJP is het intieme verslag van een van de turbulentste jaren in het leven van Nederlands populairste voetbalanalist. De lezer maakt kennis met de vriendenkring van Van der Gijp - onder wie Ruud Gullit, Dick Advocaat en voetbalmakelaar Rob Jansen - maar volgt de hoofdpersoon ook op de voet bij het grote drama dat hem overkomt, wanneer plotseling de moeder van zijn jongste zoontje overlijdt en zijn luie leventje van de ene op de andere dag volledig op z'n kop wordt gezet.",
         "Reviews": 1,
-        "Sterren": 4
+        "Sterren": 4,
+        "Bladzijdes": 437,
+        "Schrijver": "Kimora Vaughn"
     },
     {
-        "Naam": "De verwarde cavia",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Roman",
@@ -73,10 +78,11 @@
         "Steekwoorden": "Grappig, Satire, Vermakelijk",
         "Plot": "Cavia werkt op de afdeling Communicatie. In korte humoristische hoofdstukken leren we haar en haar collega's kennen. Stella van Human Resources. Ruud het enge hoofd van de afdeling Financiën. En Harm-Jan van de IT-afdeling, die al sinds 1999 een tamagotchi in leven houdt. Een cavia die in een kantoortuin tussen de mensen werkt: het klinkt wat onwaarschijnlijk, maar iedereen die ook maar een blauwe maandag op een kantoor heeft gewerkt, zal de avonturen van de verwarde cavia herkennen. Van een symbiotische relatie met het koffiezetapparaat tot passief-agressieve e-mails en duizelingwekkende perikelen rond de lief- en leedpot. De verwarde cavia is een grappig en ontroerend boek, onmisbaar voor iedereen die wel eens collega's heeft gehad, of ze misschien nog steeds wel heeft.",
         "Reviews": 4,
-        "Sterren": "4,5"
+        "Sterren": "4,5",
+        "Bladzijdes": 555,
+        "Schrijver": "Marina Wade"
     },
     {
-        "Naam": "De levens van Jan Six",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Literatuur",
@@ -84,10 +90,11 @@
         "Steekwoorden": "Waargebeurd, Familiegeschiedenis, Gouden Eeuw",
         "Plot": "Dit is het verhaal van Jan Six, zijn familie en zijn vele levens. Zijn portret geldt als het mooiste dat zijn vriend Rembrandt ooit maakte, het hangt – uniek – nog steeds in het familiehuis aan de Amstel. Jan kende iedereen in het 17e-eeuwse Amsterdam, van Vondel tot Spinoza. Maar wat ging er werkelijk om in het hoofd van deze 17e-eeuwse patriciër en kunstverzamelaar? Zijn kladboek is bewaard gebleven in het rijke familiearchief: duizenden aantekeningen, variërend van recepten, anekdotes en godsdienstige beschouwingen tot zeldzaam schunnige grappen. Na hem kwamen nieuwe mannen: binnen de familie Six heet de oudste zoon van de oudste zoon altijd weer Jan Six, tot de dag van vandaag. Ze werden burgemeester en wetenschapper, ze verwierven grote rijkdom en strompelden soms ook weer gebocheld, arm en eenzaam door het leven. Het is allemaal verstopt in datzelfde familiehuis: in eindeloze correspondenties, door vier eeuwen heen, over kleine en grote zaken – zelfs met George Washington – in dagboeken en notities en in alles wat de Sixen verder bewaarden, tot hun balboekjes toe. De levens van Jan Six is het verhaal van een Amsterdamse elitefamilie door vier eeuwen heen. Het is tegelijk het verhaal van de stad en de tijdgeest, van ambities en beperkingen, van grandeur en de eeuwige angst voor de neergang.",
         "Reviews": 4,
-        "Sterren": "4,5"
+        "Sterren": "4,5",
+        "Bladzijdes": 334,
+        "Schrijver": "Angie Maxwell"
     },
     {
-        "Naam": "De antwoorden op grote vragen",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Literatuur",
@@ -95,10 +102,11 @@
         "Steekwoorden": "Wetenschap, Waargebeurd, Stephen Hawking",
         "Plot": "De wereldberoemde wetenschapper en bestsellerauteur Stephen Hawking laat ons zijn laatste ideeën over de grootste vragen van het universum na in dit briljante, postuum uitgegeven werk.",
         "Reviews": 1,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 765,
+        "Schrijver": "Ally Davies"
     },
     {
-        "Naam": "Vuur & Bloed: Deel 1",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Fantasy",
@@ -106,21 +114,23 @@
         "Steekwoorden": "Draken, Realistische Fantasy, Zwaargevechten, Politiek",
         "Plot": "Vuur en Bloed is het eerste deel van een tweedelige geschiedenis over het huis Targaryen van Westeros uit de boeken van Game of Thrones-auteur George R.R. Martin. Driehonderd jaar voordat Het Lied van IJs en Vuur begon veroverde Aegon Targaryen met zijn zussen-gemalinnen en hun drie draken het continent Westeros. Meer dan 280 jaar hielden zijn nakomelingen de heerschappij in stand. Ze doorstonden opstanden, burgeroorlogen en familieruzies... totdat Robert Baratheon de waanzinnige koning Aerys II van zijn troon stootte. Dit is de geschiedenis van het grote Huis Targaryen, opgeschreven door aartsmaester Gyldayn, getranscribeerd door George R.R. Martin.",
         "Reviews": 2,
-        "Sterren": 3
+        "Sterren": 3,
+        "Bladzijdes": 345,
+        "Schrijver": "Leonel Cross"
     },
     {
-        "Naam": "Kom hier, dat ik u kus",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Roman",
         "kaft_image": "https://media-frontend.tweakwise.com/data/ako/700x700/353828.jpg",
         "Steekwoorden": "Scherp, Humoristisch, Schaamteloos, Eerlijk",
-        "Plot": "om hier dat ik u kus is een roman over Mona, als kind, als vierentwintigjarige, en als vijfendertigjarige. Een verhaal over waarom we worden wie we zijn, geschreven met humor, scherpte en veel schaamteloze eerlijkheid. Over ouders en kinderen. Over kapotte mensen en hoe zij ongewild anderen ook kapotmaken. Over waar verantwoordelijkheid eindigt en schuld begint. Over geheimen en eenzaamheid. Over ziekte en zwijgen. Over de gevaren van sterk zijn. Over vergeten en niet kunnen vergeten. Over jezelf durven redden. En natuurlijk ook nog over de liefde.",
+        "Plot": "Kom hier dat ik u kus is een roman over Mona, als kind, als vierentwintigjarige, en als vijfendertigjarige. Een verhaal over waarom we worden wie we zijn, geschreven met humor, scherpte en veel schaamteloze eerlijkheid. Over ouders en kinderen. Over kapotte mensen en hoe zij ongewild anderen ook kapotmaken. Over waar verantwoordelijkheid eindigt en schuld begint. Over geheimen en eenzaamheid. Over ziekte en zwijgen. Over de gevaren van sterk zijn. Over vergeten en niet kunnen vergeten. Over jezelf durven redden. En natuurlijk ook nog over de liefde.",
         "Reviews": 1,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 372,
+        "Schrijver": "Benjamin Gibbs"
     },
     {
-        "Naam": "Naar de eeuwige vrede",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Filosofie",
@@ -128,10 +138,11 @@
         "Steekwoorden": "Filosofisch, Globalisering, Kosmopolitisme",
         "Plot": "Naar de eeuwige vrede is de vertaling van het boek Zum ewigen Frieden van Kant, dat in 1795 verschijnt als de Franse Revolutie nog in volle gang is. Daardoor wordt het een populair geschrift. Ook de wereld na 11 september 2001 kan volgens talloze publicisten niet begrepen worden zonder verwijzing naar dit geschrift van Kant: het speelt een prominente rol in discussies over vraagstukken van oorlog en vrede, over de betekenis van de internationale rechtsorde en de Verenigde Naties, over mensenrechten en humanitaire interventies en over globalisering en kosmopolitisme.",
         "Reviews": 4,
-        "Sterren": 3
+        "Sterren": 3,
+        "Bladzijdes": 764,
+        "Schrijver": "WIllow Barajas"
     },
     {
-        "Naam": "Arnhem, the battle for survival",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Oorlog",
@@ -139,10 +150,11 @@
         "Steekwoorden": "Geschiedenis, Tweede Wereldoorlog, Nederland",
         "Plot": "Arnhem by John Nichol and Tony Rennell is an absolutely gripping narrative packed with action and heroic tales of courage. 'Riveting ... reveals the ice-cool courage of British troops trapped in the bloody shambles of Arnhem' Daily Mail In September 1944, a mighty shock force of battle-hardened Allied troops dropped from the skies into enemy-occupied Holland in what was hoped would be the decisive final battle of World War II. Landing miles behind the German lines, their daring mission was to secure bridges across the Rhine so that ground forces could make a rapid dash into Nazi Germany. If all went well, the war could be over by Christmas.",
         "Reviews": 3,
-        "Sterren": "4,5"
+        "Sterren": "4,5",
+        "Bladzijdes": 589,
+        "Schrijver": "Janiyah O'connor"
     },
     {
-        "Naam": "Nice girls don't get the corner office",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Literatuur",
@@ -150,10 +162,11 @@
         "Steekwoorden": "Carrière, Vrouwen, Ambitie",
         "Plot": "Werk jij altijd non-stop door zonder pauze? Maak je je zorgen of je anderen niet beledigt met je feedback? Vraag je collega’s altijd om raad voordat je een beslissing neemt? Of wil je gewoon dat iedereen je aardig vindt? Als je een van de bovenstaande vragen met ja hebt beantwoord, is volgens Lois P. Frankel de kans groot dat er regelmatig een promotie aan je neus voorbijgaat en dat het je meestal niet lukt om je dromen & ideeën waar te maken.",
         "Reviews": 3,
-        "Sterren": "3,5"
+        "Sterren": "3,5",
+        "Bladzijdes": 621,
+        "Schrijver": "Rodigro Mann"
     },
     {
-        "Naam": "Eragon",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Fantasy",
@@ -161,10 +174,11 @@
         "Steekwoorden": "Draken, Magie, Avontuur",
         "Plot": "Het leven van de jonge boerenzoon Eragon verandert van de ene dag op de andere als hij op een jacht in de wouden van de onherbergzame Rug een raadselachtige blauwe steen vindt. Aanvankelijk is Eragon blij met de vondst, maar tot zijn grote teleurstelling wil geen van de handelaren die jaarlijks door de Vallei van Palencar trekken de steen van hem kopen. Dan geeft de steen zijn geheim prijs en is Eragon getuige van de geboorte van een drakenjong. Tussen Eragon en de draak, Saphira, ontstaat een hechte band. Maar de vondst van de steen is niet onopgemerkt gebleven. In Carvahall worden vreemde bezoekers gesignaleerd, onbekenden in zwarte mantels die voor niets terugdeinzen om Eragon te vinden. Dat blijkt als de boerenhoeve van Eragons pleegvader Garrow volkomen wordt vernield. Wanhopig vlucht Eragon in gezelschap van Saphira en de oude verhalenverteller Brom naar de wouden van de Rug. Zo begint de sage van Eragon, de Drakenruiter…",
         "Reviews": 1,
-        "Sterren": 4
+        "Sterren": 4,
+        "Bladzijdes": 223,
+        "Schrijver": "Mekhi Brock"
     },
     {
-        "Naam": "De Odyssee van mijn bestaan",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Biografie",
@@ -172,10 +186,11 @@
         "Steekwoorden": "Intrigerend, Eenzaam, Poëtisch",
         "Plot": "DE TRILOGIE Kindertijd, MIJN LEVEN ACHTER ONZICHTBARE TRALIES, het leidde naar MANJA EN KLINIEKEN, de zoektocht, die resulteerde in OVER DE SHOAH DIE NOOIT VOORBIJ GAAT, deels verwerkt, echter eenzaam nagenoeg SANS FAMILLE en ziek achtergebleven door de niet aflatende Medische Missers. Heel warm en keihard. Niets en niemand ontziend. De ontwikkeling tot activist op velerlei gebied. KWETSBAAR en IJZERSTERK.",
         "Reviews": 11,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 351,
+        "Schrijver": "Harrison Randolph"
     },
     {
-        "Naam": "Jamie kookt Italië",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Lifestyle",
@@ -183,10 +198,11 @@
         "Steekwoorden": "Culinair, koken, italië",
         "Plot": "Jamie Oliver keert met Jamie kookt Italië terug naar zijn culinaire roots. Want er is nog zo veel te ontdekken.",
         "Reviews": 0,
-        "Sterren": "Nog niet beoordeeld"
+        "Sterren": "Nog niet beoordeeld",
+        "Bladzijdes": 513,
+        "Schrijver": "Jonas Harris"
     },
     {
-        "Naam": "Karl Mechnig",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Kunst & Cultuur",
@@ -194,10 +210,11 @@
         "Steekwoorden": "Tekenen, Kunst, Cultuur",
         "Plot": "Karls getekende wereld is net zo puur en onafwendbaar als ze vreemd en grotesk is\" Karl Mechnig (°1959) woont en werkt in Aalst als autodidact. Sinds enige jaren maakt Karl Mechnig bijna elke dag een potloodtekening op A4-formaat. Uit de honderden tekeningen maakte Frank Demarest, curator van het Platform voor Actuele Kunsten (PAK), een selectie van 69.",
         "Reviews": 7,
-        "Sterren": 3
+        "Sterren": 3,
+        "Bladzijdes": 463,
+        "Schrijver": "Azaria Schneider"
     },
     {
-        "Naam": "Sporen",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Lifestyle",
@@ -205,10 +222,11 @@
         "Steekwoorden": "Bergbeklimmen, Ervaringen, Verhalen",
         "Plot": "Denken aan het beklimmen van een vierduizender in de Alpen is iets waar gepassioneerde alpi nisten warm van worden. Zo’n gepassioneerde alpinist is Pierre Smetsers, alias Berggeit Pierre. Dat Pierre passie heeft voor de bergsport is goed te merken aan de manier waarop hij hierover kan vertellen. Zijn verhalen in dit boek over beklimmingen van vierduizenders in de Alpen geven een mooi beeld van de beleving van alpinisme en de weg ernaartoe. Ik ben dan ook zeer vereerd dat ik bij het merendeel van deze tochten onderdeel van het team mocht zijn, hierbij was hij een goede vriend, coach en leermeester tegelijk. We hebben samen verschillende mooie en spannende avonturen beleefd daar boven en iedere veilige terugkeer in het dal gevierd met een heerlijke, koele Weizen. Als ik zijn verhalen in dit boek lees, komen we beiden aan op een top, een ijzige wind in het gezicht, we halen het touw in, kijken elkaar voldaan aan en schudden elkaar de hand gevolgd door de woorden: “Berg Heil!” Karel Küsters",
         "Reviews": 3,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 346,
+        "Schrijver": "Cameron Cobb"
     },
     {
-        "Naam": "Hay",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Biografie",
@@ -216,10 +234,11 @@
         "Steekwoorden": "Biografie, Rockster, Nederlands",
         "Plot": "Barry Hay, leadzanger van de grootste rockband van Nederland: The Golden Earring. Zevenenzestig jaar, maar aan star quality nog geen gebrek. Superfit, karakteristieke kop met zonnebril, tatoeages, pikzwart haar en een stem die al vijftig jaar mensenmassa's over de hele wereld in beweging brengt.\nIn Hay vertelt hij openhartig over zijn leven in en buiten de spotlights, over zijn roerige jeugd, familie, zijn band met moederland India, zijn grote liefde Sandra, en uiteraard zijn rise to stardom vol seks, drugs en rock 'n roll.",
         "Reviews": 60,
-        "Sterren": "4,5"
+        "Sterren": "4,5",
+        "Bladzijdes": 367,
+        "Schrijver": "Rick Barry"
     },
     {
-        "Naam": "De apotheker van Mengele",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Oorlog",
@@ -227,10 +246,11 @@
         "Steekwoorden": "Duister, Nazi's, Oorlog",
         "Plot": "Patricia Posner beschrijft in 'De apotheker van Mengele' het waargebeurde verhaal van Victor Capesius. Deze vriendelijke artsenbezoeker van farmaceutisch bedrijf Bayer ging in 1943 bij de SS en beheerde in Auschwitz het dodelijke gas Zyklon B. Hij leverde medicijnen voor de experimenten van gruwelarts Josef Mengele. Het is ook het verhaal van nazi-jager Frits Bauer die de apotheker voor het gerecht wist te krijgen. En ten slotte is dit het huiveringwekkende verhaal over Bayer/IG Farben, dat door collaboratie met de nazi's en dwangarbeid miljarden verdiende aan de Holocaust. Een onbekend hoofdstuk de Tweede Wereldoorlog, grondig onderzocht.",
         "Reviews": 1,
-        "Sterren": 4
+        "Sterren": 4,
+        "Bladzijdes": 65,
+        "Schrijver": "Myah Dickerson"
     },
     {
-        "Naam": "Suske & Wiske Het gebroken dorp",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Avontuur",
@@ -238,10 +258,11 @@
         "Steekwoorden": "Avontuur, Stripboek",
         "Plot": "Tijdens een wandeling bij het verdwenen dorp Marchimont, vindt Suske een duizend jaar oude ring. Die bezit magische krachten en Suske wordt de Uitverkorene. Hij moet de inwoners van Marchimont redden van de kwade bosgeest Clamora, maar dat zal niet van een leien dakje lopen: de geest van Clamora kan bezit nemen van het lichaam van anderen. Zo komt Suske voor verrassende tegenstanders te staan en moet hij verscheurende keuzes maken.",
         "Reviews": 10,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 523,
+        "Schrijver": "Nathaniel Correl"
     },
     {
-        "Naam": "Oorlogsgeheimen",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Oorlog",
@@ -249,10 +270,11 @@
         "Steekwoorden": "Avontuur, oorlog, kinderboek",
         "Plot": "Het Zuid-Limburgse dorp waar de elfjarige Tuur woont, is bezet door de Duitsers. Tuur en zijn buurmeisje Maartje vinden dit eerst wel spannend.",
         "Reviews": 1,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 342,
+        "Schrijver": "Melissa Riddle"
     },
     {
-        "Naam": "Ibiza",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Thriller",
@@ -260,10 +282,11 @@
         "Steekwoorden": "Thriller, Vakantie, Ibiza",
         "Plot": "Maggies leven is perfect. Succesvol ondernemer, moeder, echtgenote, veertiger en nog altijd aantrekkelijk. Haar bruisende ontbijtketen verovert in razend tempo heel Nederland én ze wordt uitgeroepen tot meest succesvolle ondernemer van het jaar. Om bij te komen van de drukte geeft haar man Sam haar een vakantie naar Ibiza cadeau. Zonder kinderen, zonder man en vooral: zonder stress. Terug naar het spirituele eiland, waar ze als student de eerste houseparty’s meemaakte. Maar wat begint als een relaxte zonvakantie, verandert in een ware nachtmerrie. Na een onverwachtse ontmoeting met haar ex en verschillende mysterieuze verdwijningen, toont het idyllische eiland zijn donkere kant. Of zijn het Maggies eigen diep weggestopte geheimen die haar in gevaar brengen?",
         "Reviews": 13,
-        "Sterren": 2
+        "Sterren": 2,
+        "Bladzijdes": 346,
+        "Schrijver": "Macie Davies"
     },
     {
-        "Naam": "Huidpijn",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Thriller",
@@ -271,10 +294,11 @@
         "Steekwoorden": "Dreigingen, Thriller, Wanhopig",
         "Plot": "‘Huidpijn’ is de gevoeligste thriller tot nu toe van Saskia Noort, auteur van de bestsellers ‘Terug naar de kust’, ‘De eetclub’, ‘Nieuwe buren’, ‘De verbouwing’, ‘Koorts’ en ‘Debet’. Linda de Mol zei over ‘Huidpijn’: ‘Het lukt Saskia Noort weer me tot vier uur wakker te houden.’ Iedereen heeft een duistere kant. Ook Anne, Nederlands populairste televisiepresentatrice en journaliste. Als ze haar grote liefde – en daarmee haar droom – dreigt te verliezen en het verdriet hierover breed wordt uitgemeten in de pers, moet ze alles op alles zetten om niet ook nog door haar vrienden, familie en eigen verstand in de steek gelaten te worden. ‘Huidpijn’ is de meest rauwe, pijnlijke en schurende thriller van Saskia Noort tot nu toe. Ze weet opnieuw als geen ander een hedendaags tijdbeeld te vangen, met treffende beschrijvingen van onder andere het BN’erschap, het hebben van een kinderwens en het leven in de schaduw van een verslaafde. Saskia Noort ontving in 2015 de GNM Meesterprijs voor haar gehele oeuvre.",
         "Reviews": 9,
-        "Sterren": 4
+        "Sterren": 4,
+        "Bladzijdes": 153,
+        "Schrijver": "Zachary Athony"
     },
     {
-        "Naam": "De allerbeste reistips van Lonely Planet",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Reizen",
@@ -282,10 +306,11 @@
         "Steekwoorden": "Reizen, tips",
         "Plot": "De allerbeste reistips van Lonely Planet verzameld in een handzame gids voor onderweg. Wat zijn de beste plaatsen in het vliegtuig? Hoe voorkom je insectenbeten? Welke gadgets moet je echt niet vergeten mee te nemen?",
         "Reviews": 0,
-        "Sterren": "Nog niet beoordeeld"
+        "Sterren": "Nog niet beoordeeld",
+        "Bladzijdes": 465,
+        "Schrijver": "Annabella Shaw"
     },
     {
-        "Naam": "Kampioenen in Afrika",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Avontuur",
@@ -293,10 +318,11 @@
         "Steekwoorden": "Avontuur, Stripboek",
         "Plot": "Boma heeft een grote verrassing voor zijn Kampioenen. Ze zijn uitgenodigd om een wedstrijd te spelen tegen het nationale team van een Afrikaans koninkrijk. Ze zullen afgehaald worden met het koninklijke vliegtuig en mogen logeren in de koninklijke verblijven. Maar kunnen de Kampioenen Boma deze keer vertrouwen? Of zit er w&eacute;&eacute;r maar eens een addertje onder het gras?",
         "Reviews": 0,
-        "Sterren": "Nog niet beoordeeld"
+        "Sterren": "Nog niet beoordeeld",
+        "Bladzijdes": 336,
+        "Schrijver": "Jarret Hebert"
     },
     {
-        "Naam": "De glazen troon",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Fantasy",
@@ -304,10 +330,11 @@
         "Steekwoorden": "Assassin, Liefde, Magie",
         "Plot": "Ze wordt door twee mannen bemind. Het hele land vreest haar. Alleen zij kan het koninkrijk redden. Celaena wordt voor de keuze gesteld: óf haar leven slijten in de gevangenis, óf deelnemen aan een toernooi waarvan de winnaar de nieuwe kampioen van de koning wordt. Een voor een worden de deelnemers van het toernooi echter op gruwelijke wijze vermoord en al snel vecht Celaena niet alleen voor haar vrijheid, maar ook voor haar leven.",
         "Reviews": 1,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 754,
+        "Schrijver": "Kathryn Short"
     },
     {
-        "Naam": "De verborgen waarheid",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Science fiction",
@@ -315,10 +342,11 @@
         "Steekwoorden": "Kosmisch, geheim, ontvoering",
         "Plot": "Zes kleine criminelen uit verschillende delen van de wereld worden bij elkaar gebracht op een geheime locatie. Niet alleen de vraag waarom juist deze zes zijn geselecteerd, maar vooral wie verantwoordelijk is voor hun ontvoering is de basis voor hun onderzoek.",
         "Reviews": 1,
-        "Sterren": 5
+        "Sterren": 5,
+        "Bladzijdes": 445,
+        "Schrijver": "Cael Morris"
     },
     {
-        "Naam": "Shinrin-yoku",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Lifestyle",
@@ -326,10 +354,11 @@
         "Steekwoorden": "Geluk, Japans, Lifestyle",
         "Plot": "Iedereen kent wel dat rozige gevoel na een mooie boswandeling. Of je nou een half uurtje een rondje loopt of een stevige wandeling maakt van een paar uur, in het bos zijn geeft ons een weldadig gevoel. Wat als je dat gevoel kan versterken? Wat als je zelfs gelukkiger wordt in je dagelijkse leven door nét iets meer te doen in het bos dan alleen wandelen?",
         "Reviews": 0,
-        "Sterren": "Nog niet beoordeeld"
+        "Sterren": "Nog niet beoordeeld",
+        "Bladzijdes": 342,
+        "Schrijver": "Gustavo Fring"
     },
     {
-        "Naam": "Parel",
         "Waargebeurd": "Nee",
         "Fictie": "Ja",
         "Genre": "Roman",
@@ -337,10 +366,11 @@
         "Steekwoorden": "Liefde, Verlies, Zoektocht",
         "Plot": "CeCe heeft altijd het gevoel gehad dat ze nergens echt bij hoorde. De dood van haar vader is een keerpunt in haar leven. Nu haar zusje Star, met wie ze altijd heel close was, een nieuw leven opbouwt met haar geliefde, voelt ze zich helemaal alleen. Wanhopig verlaat CeCe Londen in een poging haar verleden te ontrafelen. De enige aanwijzing die ze heeft is een zwart-witfoto en de naam van een vrouw die honderd jaar eerder in Australië leefde. Via de prachtige stranden van het Thaise Krabi reist CeCe naar de ruwe vlaktes van Australië. Zal ze daar in de wildernis eindelijk haar geluk vinden? De zeven zussen – Parel is het vierde deel uit de zevendelige serie over liefde, verlies en de zoektocht naar wie je werkelijk bent.",
         "Reviews": 0,
-        "Sterren": "Nog niet beoordeeld"
+        "Sterren": "Nog niet beoordeeld",
+        "Bladzijdes": 462,
+        "Schrijver": "Jaylan Novak"
     },
     {
-        "Naam": "De edele kunst van not giving a fuck",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Psychologie",
@@ -348,10 +378,11 @@
         "Steekwoorden": "Grappig, Zelfhulp, Filosofisch",
         "Plot": "Stop met altijd maar positief zijn, en leer in plaats daarvan om te gaan met je tekortkomingen en de tegenslagen in het leven. Zodra je niet meer wegrent voor je angsten, fouten en onzekerheden maar de pijnlijke waarheid onder ogen durft te zien, vind je de moed en het zelfvertrouwen waar je in deze tijd zo'n behoefte aan hebt.",
         "Reviews": 190,
-        "Sterren": "4,2"
+        "Sterren": "4,2",
+        "Bladzijdes": 234,
+        "Schrijver": "Brayden Cooley"
     },
     {
-        "Naam": "Mijn verhaal",
         "Waargebeurd": "Ja",
         "Fictie": "Nee",
         "Genre": "Biografie",
@@ -359,6 +390,8 @@
         "Steekwoorden": "Biografie, First Lady",
         "Plot": "Een biografie over het leven van vormalig First Lady Michelle Obama",
         "Reviews": 91,
-        "Sterren": "4,7"
+        "Sterren": "4,7",
+        "Bladzijdes": 432,
+        "Schrijver": "Courtney Lutz"
     }
 ]
