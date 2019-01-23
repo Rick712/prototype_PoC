@@ -253,7 +253,7 @@ header{
 }
 
 .results .book_result {
-    width: 300px;
+    width: 250px;
 }
 
 .results_page .results{
@@ -295,7 +295,7 @@ header{
     margin-top: 10px;
     max-width: 260px;
     overflow: hidden;
-    height: 133px;
+    height: 130px;
     position: relative
 }
 
@@ -347,7 +347,7 @@ header{
 .again{
     position: absolute;
     width: 300px;
-    right: 200px;
+    right: 50px;
     bottom: 100px;
 }
 
