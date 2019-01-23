@@ -17,11 +17,10 @@ let likedGenres = [],
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
-app.get('/', (req, res) => {
-    res.render('index', {genres: genres})
-})
-
 io.on('connection', (socket) => {
+    socket.on('init', () => {
+        io.emit('start')
+    })
     socket.on('likeGenre', (genre) => {
         likedGenres.push(genre)
         io.emit('like', genre)
@@ -83,6 +82,18 @@ const result = () => {
     })
     console.log(totalLikes)
 }
+
+app.get('/', (req, res) => {
+    res.render('index')
+})
+
+app.get('/start', (req, res) => {
+    res.render('start', {genres: genres})
+})
+
+app.get('/genre-explaination', (req, res) => {
+    res.render('step_1')
+})
 
 app.get('/admin', (req, res) => {
     likedGenres = []
