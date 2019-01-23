@@ -14,49 +14,26 @@
             <img src="../images/akologo.png" alt="Ako_logo" class="logo"/>
         </header>
         <div class="content">
-            <div class="results">
-                <img class="book_result" src="http://boekzoektlezer.weebly.com/uploads/4/6/0/2/46025649/5460504.jpg?222" alt="book cover" />
-                <div class="rating">
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
-                    <p class="rating_amount">(23)</p>
+            <% var i = 0 %>
+            <% for (var book in results) { %>
+                <% if (i < 3) { %>
+                <div class="results">
+                    <img class="book_result" src="<%= results[book].kaft_image %>" alt="book cover" />
+                    <div class="rating">
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
+                        <p class="rating_amount"><%= results[book].Reviews %></p>
+                    </div>
+                    <p class="book_result_author"><%= results[book].Naam %></p>
+                    <p class="book_result_pages"><%= results[book].Bladzijdes %> blz.</p>
+                    <p class="book_result_description"><%= results[book].Plot %></p>
                 </div>
-                <p class="book_result_author">Naam naam</p>
-                <p class="book_result_pages">Blz.</p>
-                <p class="book_result_description">adml kasmal ksdmalk sdaslkd aslkd aslk djaslk djaslk djaslk djalks djalsk dj</p>
-            </div>
-            <div class="results">
-                <img class="book_result" src="http://boekzoektlezer.weebly.com/uploads/4/6/0/2/46025649/5460504.jpg?222" alt="book cover" />
-                <div class="rating">
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
-                    <p class="rating_amount">(23)</p>
-                </div>
-                <p class="book_result_author">Naam naam</p>
-                <p class="book_result_pages">Blz.</p>
-                <p class="book_result_description">adml kasmal ksdmalk sdaslkd aslkd aslk djaslk djaslk djaslk djalks djalsk dj</p>
-            </div>
-            <div class="results">
-                <div class="new_circle"><p>Nieuw!</p></div>
-                <img class="book_result" src="http://boekzoektlezer.weebly.com/uploads/4/6/0/2/46025649/5460504.jpg?222" alt="book cover" />
-                <div class="rating">
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating" src="../images/star.png" alt="star rating" />
-                    <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
-                    <p class="rating_amount">(23)</p>
-                </div>
-                <p class="book_result_author">Naam naam</p>
-                <p class="book_result_pages">Blz.</p>
-                <p class="book_result_description">adml kasmal ksdmalk sdaslkd aslkd aslk djaslk djaslk djaslk djalks djalsk dj</p>
-            </div>
+                <% i++ %>
+                <% } %>
+            <% } %>
             <div class="qr_section">
                 <p>Geen tijd? Scan de QR code zodat je deze niet vergeet!</p>
                 <img class="qrcode" src="../images/qr.png" alt="QR code" />
