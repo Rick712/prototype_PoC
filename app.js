@@ -95,6 +95,10 @@ app.get('/genre-explaination', (req, res) => {
     res.render('step_1')
 })
 
+app.get('/keywords-explaination', (req, res) => {
+    res.render('step_2')
+})
+
 app.get('/admin', (req, res) => {
     likedGenres = []
     relatedBooks = []
@@ -107,6 +111,10 @@ app.get('/adminkeywords', (req, res) => {
 
 app.get('/keywords', (req, res) => {
     res.render('keywords', {books: relatedBooks})
+})
+
+app.get('/result-explaination', (req, res) => {
+    res.render('step_resultaat')
 })
 
 app.get('/result', (req, res) => {

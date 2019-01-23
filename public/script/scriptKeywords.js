@@ -32,5 +32,5 @@ genreElement.forEach((el) => {
 })
 
 socket.on('result', () => {
-    window.location = '/result'
+    window.location = '/result-explaination'
 })

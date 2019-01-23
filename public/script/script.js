@@ -26,8 +26,7 @@ socket.on('dislike', function (genre) {
 })
 
 socket.on('sendBooks', function() {
-    console.log('test')
-    window.location = '/keywords'
+    window.location = '/keywords-explaination'
 })
 
 const genreElement = document.querySelectorAll('.content_block')
