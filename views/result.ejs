@@ -16,7 +16,7 @@
         <div class="content">
             <% var i = 0 %>
             <% for (var book in results) { %>
-                <% if (i < 3) { %>
+                <% if (i < 2) { %>
                 <div class="results">
                     <img class="book_result" src="<%= results[book].kaft_image %>" alt="book cover" />
                     <div class="rating">
@@ -25,7 +25,6 @@
                         <img class="star_rating" src="../images/star.png" alt="star rating" />
                         <img class="star_rating" src="../images/star.png" alt="star rating" />
                         <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
-                        <p class="rating_amount"><%= results[book].Reviews %></p>
                     </div>
                     <p class="book_result_author"><%= results[book].Naam %> - <span><%= results[book].Schrijver %></span></p>
                     <p class="book_result_pages"><%= results[book].Bladzijdes %> blz.</p>
@@ -34,6 +33,20 @@
                 <% i++ %>
                 <% } %>
             <% } %>
+
+            <div class="results">
+                    <img class="book_result" src="https://media-frontend.tweakwise.com/data/ako/700x700/545175.jpg" alt="book cover" />
+                    <div class="rating">
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating" src="../images/star.png" alt="star rating" />
+                        <img class="star_rating disabled" src="../images/star.png" alt="star rating" />
+                    </div>
+                    <p class="book_result_author">Houden van dingen die niet perfect zijn - <span>Haemin Sunim</span></p>
+                    <p class="book_result_pages">211 blz.</p>
+                    <p class="book_result_description">De inzichten en adviezen van de Koreaanse boeddhistische monnik Haemin Sunim uit de bestseller Dingen die je alleen ziet als je er de tijd voor neemt gingen over rust. In dit nieuwe boek heeft Sunim het over liefde, compassie en vergeving. Hij benadrukt dat niemand perfect is, maar dat het juist daarom belangrijk is om liefdevol en mild te zijn voor jezelf en anderen. Want als je vriendelijker bent naar jezelf, kun je ook vriendelijker zijn naar de wereld en krijg je zelfvertrouwen om je bezig te houden met dat wat je echt gelukkig maakt.</p>
+                </div>
             <div class="qr_section">
                 <p>Geen tijd? Scan de QR code zodat je deze niet vergeet!</p>
                 <img class="qrcode" src="../images/qr.png" alt="QR code" />
