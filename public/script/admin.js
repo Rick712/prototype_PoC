@@ -2,7 +2,8 @@ const socket = io.connect()
 
 const   dislike = document.querySelectorAll('#dislike'),
         like = document.querySelectorAll('#like'),
-        send = document.querySelector('#send')
+        send = document.querySelector('#send'),
+        initBtn = document.querySelector('.init_app')
 
 if(like) {
     like.forEach((likeBtn) => {
@@ -18,6 +19,10 @@ if(like) {
         })
     })
 }
+
+initBtn.addEventListener('click', () => {
+    socket.emit('init')
+})
 
 send.addEventListener('click', function () {
     socket.emit('send')

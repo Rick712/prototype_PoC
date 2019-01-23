@@ -2,6 +2,7 @@
 
 body{
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .admin {
@@ -23,10 +24,83 @@ body{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
     z-index: 100;
 }
 
+/* -------start index page--------------------------------------------------------------------------- */
+    .index_page{
+        background: #ECECEC;
+        z-index: 100;
+    }
+
+    .random_circle_index{
+        background: #fff;
+        width: 1300px;
+        height: 1300px;
+        left: -300px;
+        top: -100px;
+        z-index: -10;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .random_circle_index_red{
+        background: #E3071C;
+        width: 1100px;
+        height: 1100px;
+        right: -100px;
+        bottom: -400px;
+        z-index: -1;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .random_circle_index_red p{
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        align-self: center;
+        color: #fff;
+        max-width: 600px;
+        margin-bottom: 300px;
+    }
+
+    .container.index header{
+        padding-top: 50px;
+    }
+
+    .container.index .logo{
+        width: 18%;
+    }
+
+    .container.index .introduction{
+        display: block;
+        width: 200px;
+        margin-top: 30vh;
+    }
+    .container.index .introduction img{
+        width: 120px;
+        display: block;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .container.index .introduction .line{
+        display: block;
+        margin: auto;
+        border: 1px solid #E3071C;
+        width: 100px;
+    }
+    .container.index .introduction p{
+        font-size: 19px;
+        font-weight: 600;
+        max-width: 200px;
+        text-align: center;
+    }
+/* -------end index page--------------------------------------------------------------------------- */
 /* -------start header--------------------------------------------------------------------------- */
 header{
     display: flex;
@@ -70,7 +144,7 @@ header{
 .content_block{
     background: #FFFFFF;
     border: 11px solid #FFFFFF;
-    box-shadow: 3px 8px 20px 0 rgba(142,142,142,0.50);
+    box-shadow: 3px 8px 20px 0 rgba(226, 226, 226, 0.5);
     border-radius: 93px;
     width: 500px;
     text-align: center;
@@ -78,7 +152,11 @@ header{
     margin-top: 100px;
     align-self: center;
     position: absolute;
-    height: 300px;;
+    height: 300px;
+}
+
+.keywords .content_block{
+    height: 130px;
 }
 
 .content .line{
@@ -182,6 +260,8 @@ header{
     min-width: 300px;
     max-width: 300px;
     padding-right: 40px;
+    align-self: flex-end;
+    position: relative;
 }
 
 .rating{
@@ -221,6 +301,26 @@ header{
 
 .results:nth-child(3) img{
     max-width: 150px;
+}
+
+.results .new_circle{
+    border-radius: 50%;
+    background: #E3071C;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 100px;
+    top: -38px;
+}
+
+.results .new_circle p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    align-self: center;
 }
 
 .qr_section{
@@ -301,7 +401,57 @@ header{
 }
 
 /* -------end content---------------------------------------------------------------------------------------- */
+/* -------start steps---------------------------------------------------------------------------------------- */
 
+.stepcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-top: 50px;
+}
+
+.stepcontent p{
+    margin: 0;
+}
+
+.stepcontent p:nth-child(1){
+    color: #E3071C;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.stepcontent p:nth-child(2){
+    font-size: 28px;
+    font-weight: 600;
+    color: #595959;
+    padding-bottom: 30px;
+}
+.stepcontent p:nth-child(3){
+    font-size: 58px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.stepcontent p:nth-child(5){
+    font-size: 21px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 40px;
+    max-width: 380px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.stepcontent .line{
+    border: 1px solid #E3071C;
+    width: 100px;
+}
+
+/* -------end steps---------------------------------------------------------------------------------------- */
 .book {
     position: relative;
     margin: 0 auto;
