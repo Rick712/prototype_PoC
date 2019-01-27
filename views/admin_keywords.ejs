@@ -27,8 +27,9 @@
         <% i = i - 1 %>
     <% } %>
 
-    <div class="genre" id="next12">
+    <div class="genre" id="next<%= i %>">
         <a id="send">Verstuur lijst</a>
+        <a id="restart">Begin opnieuw</a>
     </div>
 
     <script src="/socket.io/socket.io.js"></script>

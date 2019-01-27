@@ -45,6 +45,10 @@ io.on('connection', (socket) => {
         io.emit('result')
         checkKeywords()
     })
+
+    socket.on('restart', () => {
+        io.emit('restartApp')
+    })
 })
 
 const checkBook = () => {

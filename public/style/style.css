@@ -377,7 +377,9 @@ header{
     transition: fill ease-in-out .75s .1s;
 }
 
-#send {
+#send,
+.init_app,
+#restart {
     padding: 3rem;
     border-radius: 5px;
     font-size: 22px;
