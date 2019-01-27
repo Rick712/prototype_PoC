@@ -102,6 +102,9 @@ app.get('/keywords-explaination', (req, res) => {
 app.get('/admin', (req, res) => {
     likedGenres = []
     relatedBooks = []
+    likedKeywords = []
+    finalBooks = []
+    totalLikes = {}
     res.render('admin', {genres: genres})
 })
 
