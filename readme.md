@@ -1,6 +1,30 @@
-# Hoe te gebruiken
+# AKO Boekenkiezer
 
-## Met Git (optioneel)
+Dit is de repository van de AKO boekenkiezer.
+
+- **[Over](#over)**
+- **[Hoe te gebruiken](#hoe-te-gebruiken)**
+
+## Over
+
+De AKO boekenkiezer is een project van 5 Communication & Multimedia Design aan de Hogeschool van Amsterdam. Het prototype is een interactieve installatie waarmee bezoekers van een trein station met een AKO een boek kunnen kiezen door middel van beweging.
+
+![Begin scherm](https://i.imgur.com/afBDYwC.png)
+
+![Scherm voor genre kiezen](https://i.imgur.com/TW3dpTI.png)
+
+![Uitleg over het kiezen voor steekwoorden](https://i.imgur.com/NWFEE02.png)
+
+![Uitleg over de resultaten](https://i.imgur.com/Is7uFco.png)
+
+![De resultaten](https://i.imgur.com/fXwnAVM.png)
+
+
+## Hoe te gebruiken
+
+Hier staat beschreven hoe je de app kan installeren, en gebruiken.
+
+### Met Git (optioneel)
 
 Zorg dat je git en github geīnstalleerd hebt [via deze](https://git-scm.com/) en [deze tekst](https://desktop.github.com/)
 
