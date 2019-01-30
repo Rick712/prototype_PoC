@@ -2,6 +2,8 @@
 
 Dit is de repository van de AKO boekenkiezer.
 
+[Link tijdens presentatie:](http://e6658b22.ngrok.io)
+
 - **[Over](#over)**
 - **[Hoe te gebruiken](#hoe-te-gebruiken)**
 
